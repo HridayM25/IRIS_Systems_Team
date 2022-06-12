@@ -1,0 +1,2 @@
+module FrensHelper
+end

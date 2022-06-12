@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @fren %>
+
+<div>
+  <%= link_to "Edit this fren", edit_fren_path(@fren) %> |
+  <%= link_to "Back to frens", frens_path %>
+
+  <%= button_to "Destroy this fren", @fren, method: :delete %>
+</div>
